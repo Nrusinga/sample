@@ -1,10 +1,10 @@
 matrix:
   include:
   -language: c
-  sudo: false # only for faster builds
-  compiler:
-    -clang
-    -gcc
+   sudo: false # only for faster builds
+   compiler:
+     - clang
+     - gcc
    script:
-    -gcc -o example example.c
-    - ./example
+     - gcc -o example example.c
+     -  ./example
