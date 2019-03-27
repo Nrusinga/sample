@@ -6,5 +6,5 @@ matrix:
     -clang
     -gcc
    script:
-    -gcc o example example.c
+    -gcc -o example example.c
     - ./example
